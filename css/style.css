@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.homeimg1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/black-brick-wall-textured-background_53876-63572.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: rgb(21, 19, 19);
+    top: 0;
+    opacity: 0,7;
+    z-index: 20;
+}
+.homelink{
+    text-decoration: none;
+    color: rgb(232, 229, 229);
+}
+ul {
+    float: right;
+    list-style: none;
+    margin-right: 100px;
+    padding: 15px;
+}
+ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.log1{
+   height: 50px;
+   float: left;
+   width: 50px;
+   margin-left: 150px;
+ }
+.home{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+    text-align: center;
+}
+.hometitle1{
+    text-transform: uppercase;
+    font-size: 65px;
+}
+.homep1{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}  
+.homebut{
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+} 
+.homebut:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}  
+.but2{
+    background-color: blue;
+    color: white;
+}
+.sc2title{
+    text-align: center;
+    font-size: 40px;
+}
+.linesc2{
+    width: 80px;
+    height: 4px;
+    background-color: blue;
+    margin: auto;
+}
+.container1{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+.div1 {
+    width: 30%;
+    height: 250px;
+    border: 1px solid;
+    text-align: center;
+    float: left;
+    padding: 50px;
+    position: relative;
+}
+.div1-2{
+    width: 30%;
+    height: 250px;
+    border: 1px solid;
+    text-align: center;
+    float: left;
+    margin: 0px 25px 25px 25px;
+    position: relative;
+    padding: 50px;
+}
+.div2a{
+    color: blue;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.sc2title2{
+    text-transform: capitalize;
+}
+.div1-2::after{
+    position:absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: black;
+    z-index: -20;
+    opacity: 1;
+}
+.div1-2:hover::after{
+    opacity: 0,5;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.div1-2:hover{
+    color: white;
+}
+.div2a{
+    color: rgb(0, 76, 255)
+}
+.fas{
+    font-size: 25px;
+    color: rgb(0, 157, 255);
+}
+.sc2parent{
+ position: relative;
+}
+.div1::after{
+    position:absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: black;
+    z-index: -20;
+    opacity: 1;
+}
+.div1:hover::after{
+    opacity: 0,5;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.div1:hover{
+    color: white;
+}
+.cs3big{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(214, 207, 207);
+}
+.sc3title{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.linesc3{
+    width: 100px;
+    height: 5px;
+    background-color: blue;
+    margin: auto;
+}
+.container2{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.sc4title{
+    text-align: center;
+    font-size: 40px;
+}
+.sc4line{
+    width: 80px;
+    height: 5px;
+    background-color: blue;
+    margin: auto;
+}
+.container3{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.sc4div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    text-align: center;
+    float: left;
+    padding: 30px 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    position: relative;
+}
+.sc4titlediv{
+    font-size: 20px;
+}
+.title1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.ourdiv{
+    width:80px ;
+    height: 4px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 10px;
+}
+.container9{
+    width: 80%;
+    margin: auto;
+}
+.ourparent{
+    overflow: auto;
+}
+.ourdiv1{
+    float:left;
+    width: 30%;
+    background-color: gray;
+    text-align: center;
+    padding:25px 14px;
+    position: relative;
+}
+.tt{
+    margin: 0px 5%;
+}
+.ourimg img{
+    width: 100%;
+}
+.ouroverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+.ourimg{
+    position: relative;
+}
+.ourdiv1:hover .ouroverlay{
+    visibility: visible;
+}
+.ourimg a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    margin-left: auto;
+}
+.ouroverlay a i{
+    line-height: 40px;
+}
+.ourdiv1::after{
+    position: absolute;
+    content: "";
+    width:100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+}
+.ourdiv1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+}
+.div2::after{
+    position:absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: black;
+   z-index: -20;
+    opacity: 1;
+}
+.div2:hover::after{
+    opacity: 0,5;
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+}
+.div2:hover{
+    color: white;
+}
+.div2{
+    position: relative;
+}
+.pover,.p2over{
+ text-align: center;
+ color: white;
+}
+.yy{ 
+ color: rgb(59, 195, 240);
+ text-align: center;
+}
+.far{
+    font-size: 25px;
+    color: rgb(0, 157, 255);
+}
+.sc4div::after{
+    position:absolute;
+    content:"";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: black;
+    z-index: -20;
+    opacity: 1;
+}
+.sc4div:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+}
+.sc4titlediv{
+    display: inline-block;
+}
+.divcontainersc5{
+    width: 80%;
+    height: 600px;
+    background-color: rgb(244, 235, 235);
+    margin: auto;
+}
+.divsc51{
+    width: 40%;
+    height: 400px;
+    float: left;
+    margin: 100px 0px 0px 100px;
+}
+.sc5ti{
+    font-size: 38px;
+    text-transform: capitalize;
+}
+.sc5p{
+    color: rgb(83, 78, 78);
+}
+.imgsc5{
+    width: 300px;
+    height: 350px;
+    float: right;
+    margin: 100px 70px 0px 0px;
+}
+.sc5li li{
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+ background-color: blue;
+}
+.oi1{
+    color: black;
+}
+.containersc6{
+    width: 100%;
+    height: 400px;
+}
+.divimgsc6{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-image: url(../image/security_programming_hero.jpg);
+    background-size: cover;
+    position: relative;
+}
+.overlaysc6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+}
+.divsc6{
+    color: white;
+    float: left;
+    margin: 150px 25px 100px 150px;
+    text-align: center;
+    font-size: 19px;
+}
+.divsc6 .fas{
+    color: rgb(79, 79, 210);
+    
+}
+.sc7title{
+    text-align: center;
+    font-size: 45px;
+}
+.sc7line{
+    width:80px ;
+    height: 4px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 10px; 
+}
+.containersc7{
+    width: 80%;
+    height: 550px;
+    margin: auto;
+}
+.sc7table{
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    width: 300px;
+    height: 370px;
+    padding: 25px;
+    margin-top: 40px;
+    position: relative;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 102, 255);
+    margin: auto;
+}
+.pcir{
+    font-size: 25px;
+    padding: 5px;
+}
+.p1sc7 {
+    text-transform: uppercase;
+    color: gray;
+}
+.divtable{
+    color: gray;
+}
+.sc7but{
+    border: 2px solid rgb(0, 98, 255);
+    padding: 5px;
+}
+.sc71{
+    margin: 40px 40px 0 40px;
+}
+.sc7table::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color:black;
+    content: "";
+}
+.sc7table:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;
+}
+.sc7table:hover .pcir{
+    color: red;
+}
+.sc7table:hover .p1sc7{
+    color: red;
+}
+.imgsc8{
+    background-image: url(../image/camping-on-top-of-the-mountain-during-sunset-free-photo.webp);
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containersc8{
+    width: 80%;
+    height: 50%;
+}
+.img1sc8{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.divsc8{
+   width: 300px;
+   height: 100px;
+   float: left;
+   margin: 120px;
+   margin-right: 85px;
+}
+.spsc8{
+    color: white;
+}
+.psc8{
+    color: rgb(211, 202, 202);
+}
+span{
+    color: whitesmoke;
+}
+
+.containersc10{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.isc10{
+    font-size: 13px;
+}
+.asc10{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+    text-transform: capitalize;
+}
+.sc10title{
+    font-size: 22px;
+}
+.psc10{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divsc10{
+    width: 300px;
+    height: 450px;
+    background-color: rgb(250, 242, 242);
+    float: left;
+    margin: 15px;
+    position: relative;
+}
+.divsc10::after{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(70, 130, 234);
+    opacity: 0.5;
+    content: "";
+}
+.divsc10:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;
+}
+.divsc11{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(109, 103, 103);
+    position: relative;
+}
+.imgsc11{
+    width: 200px;
+    height: 150px;
+    padding-left: 65px ;
+}
+ .divicon {
+    display: inline-block;
+}
+.faa{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(39, 104, 244);
+    color: white;
+    text-align: center;
+    padding: 25%;
+    font-size: 22px;
+}
+.div1sc11{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.spsc11{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.faa:hover{
+    opacity: 0.5;
+}
+/* ////////////////////////////////////////////// */
+.divbigsc3{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(59, 52, 52, 0.137);
+}
+.containersc3{
+    width: 80%;
+    height:600px;
+    margin: auto;
+}
+.divimgsc3{
+    width: 250px;
+    height: 350px;
+    background-image: url(../image/camping-on-top-of-the-mountain-during-sunset-free-photo.webp);
+    background-size: cover;
+    position: relative;
+    float: left;
+    margin: 40px;
+
+}
+.wordsc3{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background-color:rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.divimgsc3:hover .wordsc3{
+    visibility: visible;
+}
+.psc3{
+    margin-top: 80px;
+    color: rgb(207, 196, 196);
+}
+.spsc3{
+    font-size: 20px;
+}
+
+
+
